@@ -31,3 +31,8 @@ if let strOp = strOp,errorMessage = errorMessage{
 if let strOp = strOp,errorMessage = errorMessage where strOp == "404"{
     "not"
 }
+
+//隐式可选性  ! 与 ？
+var hello:String!
+
+
