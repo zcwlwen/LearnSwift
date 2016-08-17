@@ -70,3 +70,56 @@ var OneToFive = [1,2,3,4,5]
 OneToFive == numbers
 //数组是有序的数据结构 顺序不同 不相同   
 //Swift中的数组比较的是指  OC中的数组是引用不能比较
+
+
+
+
+//数组的更多操作
+var courses = ["玩转Swift","玩转Swift2.0","玩转Swift3.0"]
+
+courses.append("hhhdhadhas")
+
+courses += ["1","2"]
+//索引 为添加的元素的位置
+courses.insert("helllo", atIndex: 2)
+//删除第一个元素 
+courses.removeFirst()
+courses
+//删除最后一个元素
+courses.removeLast()
+courses
+//删除索引删除指定位置的元素
+courses.removeAtIndex(2)
+//删除范围内的元素
+courses
+courses.removeRange(0...1)
+
+courses.removeAll()
+
+//数组元素的修改
+var courses2 = ["玩转Swift","玩转Swift2.0","玩转Swift3.0"]
+
+courses2[1] = "zcw1"
+
+courses2[1...2] = ["zcw2" , "zcw3" ]
+
+courses2
+
+courses2[1...2] = ["121212"]
+
+courses2
+
+courses2.count
+
+
+
+
+
+
+
+
+
+
+
+
+
