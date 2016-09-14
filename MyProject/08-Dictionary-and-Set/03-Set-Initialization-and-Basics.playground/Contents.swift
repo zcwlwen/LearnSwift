@@ -35,7 +35,6 @@ skillsOfA.first
 // 包含
 skillsOfA.contains("swift")
 
-
 // 遍历
 for skill in skillsOfB{
     print(skill)
